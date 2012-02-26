@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/menu_dial"
+  		android:icon="@drawable/menu_logout"
+  		android:title="拨打电话"/> 
+  <item android:id="@+id/menu_sms"
+  		android:icon="@drawable/icon_chat_history"
+  		android:title="发送短信"/> 
+  <item android:id="@+id/menu_play"
+  		android:icon="@drawable/clear_acct_menu_icon"
+  		android:title="播放音乐"/> 
+  <item android:id="@+id/menu_about"
+  		android:icon="@drawable/help_menu_icon"
+  		android:title="关于"/> 
+  <item android:id="@+id/menu_options"
+  		android:icon="@drawable/menu_sys_opt"
+  		android:title="设置"/> 
+  <item android:id="@+id/menu_exit"
+  		android:icon="@drawable/exit_menu_icon"
+  		android:title="退出"/>   		  		  		
+</menu>
