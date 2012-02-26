@@ -29,9 +29,9 @@ public class PrivateDataBase extends SQLiteOpenHelper
 		db.execSQL("insert into USERS (name,password,role,notes) values (?,?,?,?)", new String[] {"guantao",SecurityTools.EncryptMD5("123456"),"default","管涛"});
 		db.execSQL("create table if not exists ACCOUNTS (user_name_1 varchar,password_1 varchar,user_name_2 varchar,password_2 varchar,user_name_3 varchar,password_3 varchar,owner varchar,kind varchar,notes varchar,create_date varchar)");
 		db.execSQL("create table if not exists ACCOUNT_KINDS (name_en varchar,name_zh varchar,web_address varchar,notes varchar)");
-		db.execSQL("insert into ACCOUNTS (user_name_1,password_1,owner,kind) values (?,?,?,?)", new String[] {"guantao2011","147258369","管涛","同花顺"});
-		db.execSQL("insert into ACCOUNTS (user_name_1,password_1,owner,kind) values (?,?,?,?)", new String[] {"guantao2011","147258369","管涛","gmail"});
-		db.execSQL("insert into ACCOUNTS (user_name_1,password_1,owner,kind) values (?,?,?,?)", new String[] {"michaelguan","147258369","管","博库书城"});
+		db.execSQL("insert into ACCOUNTS (user_name_1,password_1,owner,kind) values (?,?,?,?)", new String[] {"guantao2011","123456","管涛","同花顺"});
+		db.execSQL("insert into ACCOUNTS (user_name_1,password_1,owner,kind) values (?,?,?,?)", new String[] {"guantao2011","123456","管涛","gmail"});
+		db.execSQL("insert into ACCOUNTS (user_name_1,password_1,owner,kind) values (?,?,?,?)", new String[] {"michaelguan","123456","管","博库书城"});
 	}
 
 	@Override
